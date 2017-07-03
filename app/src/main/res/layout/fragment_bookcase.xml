@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px108_size"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:checkedButton="@+id/radio_collection_bookcase"
+        android:background="@color/orange_f96302">
+        <RadioButton
+            android:id="@+id/radio_collection_bookcase"
+            android:background="@drawable/bg_whiteffffff_to_orangef96302"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:textColor="@drawable/txt_orangef96302_to_whiteffffff"
+            android:text="@string/collection"/>
+        <RadioButton
+            android:id="@+id/radio_history_bookcase"
+            android:background="@drawable/bg_whiteffffff_to_orangef96302"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:textColor="@drawable/txt_orangef96302_to_whiteffffff"
+            android:text="@string/collection"/>
+    </RadioGroup>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

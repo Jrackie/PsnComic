@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--应用名称-->
+    <string name="app_name">PsnComic</string>
+
+    <!--主页面导航项-->
+    <string name="bookcase">书架</string>
+    <string name="discussion">圈子</string>
+    <string name="discover">发现</string>
+    <string name="mine">我</string>
+
+    <!--书架-->
+    <string name="collection">收藏</string>
+    <string name="history">历史</string>
+</resources>
